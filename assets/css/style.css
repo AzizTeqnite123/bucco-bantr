@@ -438,6 +438,52 @@ body {
     color: #212121;
 }
 
+.ourShowsRowBtm {
+    margin-top: 60px;
+    padding-top: 60px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.ourShowsRowBtm::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, rgba(77, 77, 77, 0.1) 0%, #4D4D4D 50%, rgba(77, 77, 77, 0.1) 100%);
+}
+
+.socIconsHldr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.socIconsHldr li a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Karla;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.socIconsHldr li a img {
+    width: 25px;
+    min-width: 25px;
+    object-fit: contain;
+}
+
 /* OUR SHOWS */
 
 /* RECENET VIDEOS */
@@ -994,3 +1040,98 @@ body {
     width: 100%;
     display: block;
 }
+
+/* INNER BANNER */
+
+.innerBanner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* INNER BANNER */
+
+/* IMAGE BOX CONTENT */
+
+.imageBoxContent {
+    margin-bottom: 60px;
+}
+
+.imgBoxContentRow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageContentBoxPrImg {
+    height: 625px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imageContentBoxPrImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imageContentBoxPrContent {
+    margin-top: 30px;
+}
+
+.imageContentBoxPrContent h3 {
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.imageContentBoxPrContent p {
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #969696;
+    text-align: center;
+}
+
+/* IMAGE BOX CONTENT */
+
+/* DETAIL CONTENT */
+
+.detailContent {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, #212121, #212121),
+        linear-gradient(180deg, rgba(235, 178, 24, 0.1) 0%, rgba(0, 0, 0, 0) 40.23%);
+}
+
+.detailContentRow {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detailContentCnt p {
+    font-family: DM Sans;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.detailContentCnt p:not(:first-child) {
+    margin-top: 40px;
+}
+
+/* DETAIL CONTENT */

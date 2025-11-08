@@ -205,6 +205,52 @@
     .fullWidthImgWithCntContent p {
         margin-top: 15px;
     }
+
+    .imgBoxContentRow {
+        gap: 20px;
+    }
+
+    .imageContentBoxPrImg {
+        height: 550px;
+    }
+
+    .imageContentBoxPrContent {
+        margin-top: 20px;
+    }
+
+    .imageContentBoxPrContent h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .detailContent {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .detailContentCnt p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .detailContentCnt p:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .ourShowsRowBtm {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .socIconsHldr li a {
+        font-size: 20px;
+        gap: 15px;
+    }
+
+    .socIconsHldr li a img {
+        min-width: 22px;
+        width: 22px;
+    }
 }
 
 @media (max-width : 768px) {
@@ -363,6 +409,34 @@
         margin-top: 60px;
         margin-bottom: 60px;
     }
+
+    .imgBoxContentRow {
+        gap: 15px;
+    }
+
+    .imageContentBoxPrImg {
+        height: 450px;
+    }
+
+    .imageContentBoxPrContent h3 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .detailContent {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ourShowsRowBtm {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+    .detailContentCnt p:not(:first-child) {
+        margin-top: 20px;
+    }
+
 
 }
 
@@ -686,5 +760,70 @@
 
     .footerBottom p {
         font-size: 14px;
+    }
+
+    .innerBanner {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .imgBoxContentRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .imageContentBoxPrImg {
+        height: 350px;
+    }
+
+    .imageContentBoxPrContent h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .imageContentBoxPrContent {
+        margin-top: 15px;
+    }
+
+    .imageContentBoxPrContent p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .imageBoxContent {
+        margin-bottom: 40px;
+    }
+
+    .detailContent {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .detailContentCnt p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .detailContentCnt p:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .ourShowsRowBtm {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    .socIconsHldr li a {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .socIconsHldr li a img {
+        min-width: 18px;
+        width: 18px;
+    }
+
+    .socIconsHldr {
+        gap: 20px;
     }
 }
