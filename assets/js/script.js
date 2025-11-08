@@ -1,3 +1,5 @@
+AOS.init();
+
 document.addEventListener("DOMContentLoaded", function () {
     const videoBoxes = document.querySelectorAll(".articleBoxMedia");
 

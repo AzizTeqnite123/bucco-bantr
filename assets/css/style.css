@@ -524,8 +524,13 @@ body {
     position: relative;
 }
 
+.productCard:hover .productCardMedia img {
+    transform: scale(1.1);
+}
+
 .productCardMedia {
     position: relative;
+    overflow: hidden;
 }
 
 .prodCardImg {
@@ -539,6 +544,15 @@ body {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    transition: all ease .3s;
+}
+
+.productCard:hover .addToCartBtn {
+    background: #212121;
+}
+
+.productCard:hover .addToCartBtn img {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(99%) saturate(393%) hue-rotate(2deg) brightness(96%) contrast(95%);
 }
 
 .addToCartBtn {
@@ -586,6 +600,15 @@ body {
 
 .prodHeading h3 a {
     color: #212121;
+}
+
+.prodHeading h3 a::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .prodPrice {
