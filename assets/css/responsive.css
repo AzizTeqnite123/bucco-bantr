@@ -1,0 +1,690 @@
+@media (max-width : 1024px) {
+    .bannerMain {
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    .headingH1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .mainBtn {
+        margin-top: 50px;
+    }
+
+    .recentArticles {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .headingH2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .articleBoxMedia {
+        height: 400px;
+    }
+
+    .articleheading h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .mainBtn :is(a, button) {
+        padding: 13px 26px;
+    }
+
+    .ourShows {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .ourShowRow {
+        gap: 20px;
+    }
+
+    .ourShowBox img {
+        height: 160px;
+        width: 160px;
+    }
+
+    .ourShowBox h3 {
+        font-size: 20px;
+    }
+
+    .recentVideosRow {
+        gap: 20px;
+    }
+
+    .recentVideosRow .articleBoxMain .articleBoxMedia {
+        height: 215px;
+    }
+
+    .recentVideosRow .articleBoxMain:nth-of-type(4n + 1) .articleBoxMedia {
+        height: 685px;
+    }
+
+    .recentVideos {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .latestPodcast {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersImg {
+        height: 500px;
+    }
+
+    .latestPodCastRow {
+        padding-bottom: 30px;
+    }
+
+    .latestPodCasBtmLarge {
+        padding-top: 30px;
+    }
+
+    .latestPodCasBtmLarge::after {
+        height: 320px;
+        width: 270px;
+    }
+
+    .productCardMain {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersContent .articleBoxOthersContentHead h3 {
+        font-size: 22px;
+        line-height: 25px;
+        max-width: 400px;
+    }
+
+    .prodCardImg {
+        height: 380px;
+    }
+
+    .prodHeading h3 {
+        font-size: 20px;
+    }
+
+    .addToCartBtn {
+        height: 40px;
+        width: 40px;
+    }
+
+    .fullWidthImgWithCntContent {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .fullWidthImgWithCntContent h4 {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .newsLetterBanner {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .newsLetterBannerBgHldr {
+        padding: 80px 40px;
+    }
+
+    .newsLetterBanContent>p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footerNewsLetterForm .fieldNsLtr input {
+        height: 43px;
+    }
+
+    .footerNewsLetterForm {
+        margin-top: 30px;
+    }
+
+    .newsLetterBanRow {
+        max-width: 350px;
+    }
+
+    .footerMain {
+        margin-top: 80px;
+    }
+
+    .footLogo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footLogo a {
+        width: 200px;
+    }
+
+    .footerMainRow {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    .footLinksHldr h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footLinksHldr :is(p, li a) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footLinksHldr p {
+        max-width: 350px;
+    }
+
+    .footerBottom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .videoPlayBtn {
+        background-size: 35px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersContent {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .fullWidthImgWithCntContent p {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width : 768px) {
+    .bannerMain {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .headingH1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .bannerContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mainBtn {
+        margin-top: 40px;
+    }
+
+    .recentArticles {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .recentArticlesRow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .mainBtn :is(a, button) {
+        padding: 12px 24px;
+    }
+
+    .mainBtn :is(a, button) {
+        padding: 12px 24px;
+    }
+
+    .ourShowRow {
+        gap: 15px;
+    }
+
+    .ourShowBox img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .ourShowBox h3 {
+        font-size: 18px;
+    }
+
+    .recentVideos {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .recentVideosRow {
+        gap: 15px;
+    }
+
+    .recentVideosRow .articleBoxMain .articleBoxMedia {
+        height: 200px;
+    }
+
+    .recentVideosRow .articleBoxMain:nth-of-type(4n + 1) .articleBoxMedia {
+        height: 630px;
+    }
+
+    .latestPodcast {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersContent .articleBoxOthersContentHead h3 {
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 385px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersImg {
+        height: 450px;
+    }
+
+    .prodHeading h3 {
+        font-size: 18px;
+    }
+
+    .fullWidthImgWithCntRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fullWidthImgWithCntImage {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        grid-area: unset;
+        top: unset;
+        left: unset;
+    }
+
+    .fullWidthImgWithCntContent {
+        grid-area: unset;
+    }
+
+    .fullWidthImgWithCnt .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .fullWidthImgWithCntContent {
+        padding-top: 0px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .newsLetterBanner {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .footerNewsLetterForm .fieldNsLtr input {
+        height: 41px;
+    }
+
+    .newsLetterBannerBgHldr {
+        padding: 60px 30px;
+    }
+
+    .footerMain {
+        margin-top: 60px;
+    }
+
+    .footerMainRow {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        grid-template-columns: 55% 40%;
+        row-gap: 30px;
+    }
+
+    .headingH2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .ourShows {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .productCardMain {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width : 575px) {
+    .bannerMain {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .headingH1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .bannerContent p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mainBtn :is(a, button) {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .mainBtn {
+        margin-top: 30px;
+    }
+
+    .headingH2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .recentArticles {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .headingHldr p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .headingHldr {
+        margin-bottom: 30px;
+    }
+
+    .recentArticlesRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .articleDateDet {
+        right: 15px;
+    }
+
+    .articleDateDet .date {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .articleDateDet .month {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .articleBoxMedia {
+        height: 300px;
+    }
+
+    .articleAuthorImgName img {
+        height: 28px;
+        width: 28px;
+        min-width: 28px;
+    }
+
+    .timerReadArticle span {
+        padding: 8px 16px;
+    }
+
+    .articleBoxContent {
+        margin-top: 15px;
+    }
+
+    .articleheading h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .articleDescp p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .articleheading {
+        margin-top: 12px;
+    }
+
+    .articleDescp {
+        margin-top: 6px;
+    }
+
+    .ourShows {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .ourShowRow {
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ourShowBox {
+        gap: 15px;
+    }
+
+    .ourShowBox img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .ourShowBox h3 {
+        font-size: 16px;
+    }
+
+    .recentVideos {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .recentVideosRow {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px 10px;
+    }
+
+    .recentVideosRow .articleBoxMain:nth-of-type(4n + 1) {
+        grid-row: unset;
+        grid-column: span 3;
+    }
+
+    .recentVideosRow .articleBoxMain:nth-of-type(4n + 1) .articleBoxMedia {
+        height: 330px;
+    }
+
+    .videoPlayBtn {
+        background-size: 30px;
+    }
+
+    .recentVideosRow .articleBoxMain .articleBoxMedia {
+        height: 120px;
+    }
+
+    .latestPodcast {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersImg {
+        height: 350px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersContent {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .latestLargePodCstBox .articleBoxOthersContent .articleBoxOthersContentHead h3 {
+        font-size: 18px;
+        line-height: 20px;
+        max-width: 320px;
+    }
+
+    .articleBoxOthersContentDateTime span {
+        font-size: 14px;
+    }
+
+    .latestPodCastRow {
+        padding-bottom: 20px;
+    }
+
+    .latestPodCasBtmLarge {
+        padding-top: 20px;
+    }
+
+    .articleBoxOthersImg {
+        height: 160px;
+    }
+
+    .articleBoxOthersContent {
+        margin-top: 15px;
+    }
+
+    .articleBoxOthersContentHead h3 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .latestPodCasBtmLarge::after {
+        display: none;
+    }
+
+    .productCardMain {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .prodCardImg {
+        height: 300px;
+    }
+
+    .productCardContent {
+        margin-top: 15px;
+    }
+
+    .prodHeading h3 {
+        font-size: 16px;
+    }
+
+    .prodPrice .price {
+        font-size: 14px;
+    }
+
+    .addToCartBtn {
+        height: 30px;
+        width: 30px;
+        padding: 6px;
+    }
+
+    .fullWidthImgWithCntImage {
+        height: 350px;
+    }
+
+    .fullWidthImgWithCntContent h4 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fullWidthImgWithCntContent p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .fullWidthImgWithCntContent {
+        padding-bottom: 40px;
+    }
+
+    .newsLetterBanner {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .newsLetterBannerBgHldr {
+        padding: 40px 20px;
+    }
+
+    .newsLetterBanContent>p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footerNewsLetterForm .fieldNsLtr input {
+        height: 35px;
+    }
+
+    .footerNewsLetterForm .fieldNsLtr input,
+    .footerNewsLetterForm .fieldNsLtr input::placeholder {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .formBtmText p {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 15px;
+    }
+
+    .footerNewsLetterForm {
+        margin-top: 20px;
+    }
+
+    .footLogo a {
+        width: 150px;
+    }
+
+    .footerMainRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .footLogo {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footerMainRow {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .footLinksHldr h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .footLinksHldr :is(p, li a) {
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .footLinksHldr ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerBottom p {
+        font-size: 14px;
+    }
+}
